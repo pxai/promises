@@ -1,0 +1,26 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "Coding aroung with promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxai/promises.git"
+  },
+  "keywords": [
+    "promises",
+    "nodejs",
+    "js",
+    "JavaScript",
+    "mocha"
+  ],
+  "author": "Pello Altadill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxai/promises/issues"
+  },
+  "homepage": "https://github.com/pxai/promises#readme"
+}
