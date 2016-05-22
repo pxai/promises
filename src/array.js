@@ -1,4 +1,6 @@
 
+// Simple and std way
+// See https://www.promisejs.org/patterns/
 function log (message) {
   // Return a new promise.
   return new Promise(function(resolve, reject) {
@@ -22,12 +24,3 @@ showMessages(['hello', 'kaixo']).then(function (results) {
     console.log('Error: ' + err);  
 });
 
-/*function readJsonFiles(filenames) {
-  // N.B. passing readJSON as a function, not calling it with `()`
-  return Promise.all(filenames.map(readJSON));
-}
-readJsonFiles(['a.json', 'b.json']).done(function (results) {
-  // results is an array of the values stored in a.json and b.json
-}, function (err) {
-  // If any of the files fails to be read, err is the first error
-});*/
