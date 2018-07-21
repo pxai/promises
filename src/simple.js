@@ -16,15 +16,16 @@ exports.hello = function (msg) {
 
 
 
-
-exports.hello('Epa').then(function (msg) {
+/*
+hello('Epa').then(function (msg) {
    console.log('Ok, mesg is: ' + msg); 
 }, function (error) {
     console.log(error);
 });
 
-exports.hello('').then(function (msg) {
+hello('').then(function (msg) {
    console.log('Ok, mesg is: ' + msg); 
 }, function (error) {
     console.log(error);
 });
+*/
